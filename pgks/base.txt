@@ -98,6 +98,7 @@ vim
 vlc
 vulkan-radeon
 waybar
+wev
 wezterm
 wireplumber
 wl-clipboard
