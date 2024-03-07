@@ -2,5 +2,6 @@
 
 sleep 1
 
-hyprctl --batch "dispatch silent workspace 2;dispatch silent workspace 3;dispatch silent workspace 4;dispatch silent workspace 5;"
-hyprctl --batch "dispatch silent workspace 7;dispatch silent workspace 8;dispatch silent workspace 9;dispatch silent workspace 10;"
+hyprctl --batch "dispatch workspace 2;dispatch workspace 3;dispatch workspace 4;dispatch workspace 5;"
+hyprctl --batch "dispatch workspace 7;dispatch workspace 8;dispatch workspace 9;dispatch workspace 10;"
+hyprctl --batch "dispatch workspace 6;dispatch workspace 1;"
