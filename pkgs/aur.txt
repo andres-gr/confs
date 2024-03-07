@@ -9,6 +9,7 @@ hyprdots-ctl
 hypridle
 hyprlock
 hyprpicker-git
+nwg-displays
 oh-my-zsh-git
 pacseek
 pfetch
@@ -22,6 +23,8 @@ swww
 trizen
 visual-studio-code-bin
 wlogout
+wlr-randr
+yarn-berry
 yay
 yaycache
 zoom

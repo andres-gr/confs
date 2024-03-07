@@ -34,6 +34,7 @@ imagemagick
 intel-ucode
 jq
 kde-cli-tools
+keychain
 kitty
 kvantum
 lazygit
