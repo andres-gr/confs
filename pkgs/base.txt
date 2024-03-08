@@ -95,6 +95,7 @@ ttf-fira-sans
 ttf-firacode-nerd
 tumbler
 unzip
+usbutils
 vim
 vlc
 vulkan-radeon

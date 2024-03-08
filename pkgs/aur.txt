@@ -18,6 +18,8 @@ python-pyamdgpuinfo
 rofi-lbonn-wayland-git
 sddm-sugar-candy-git
 slack-desktop
+spicetify-cli
+spotify
 swaylock-effects-git
 swww
 trizen
