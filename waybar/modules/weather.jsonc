@@ -1,0 +1,7 @@
+    "custom/weather": {
+        "exec": "~/.config/waybar/wittr.sh",
+        "return-type": "json",
+        "format": "{}",
+        "tooltip": true,
+        "interval": 900
+    },
