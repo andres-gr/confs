@@ -102,6 +102,48 @@ ${modules_ls}
     padding-${x4}: ${g_paddin}px;
 }
 
+#cpu,
+#custom-cpuinfo,
+#custom-gpuinfo,
+#memory {
+    color: @dracula-pink-light;
+}
+
+#clock,
+#idle_inhibitor {
+    color: @dracula-cyan-light;
+}
+
+#clock,
+#idle_inhibitor {
+    color: @dracula-cyan-light;
+}
+
+
+#custom-spotify,
+#mpris {
+    color: @dracula-green-light;
+}
+
+#custom-keybindhint,
+#custom-updates,
+#network,
+#pulseaudio {
+    color: @dracula-purple-light;
+}
+
+#custom-weather {
+    color: @dracula-yellow-light;
+}
+
+#custom-cliphist,
+#custom-power,
+#custom-theme,
+#custom-wallchange,
+#custom-wbar {
+    color: @dracula-orange;
+}
+
 #workspaces,
 #taskbar {
     padding: 0px;
@@ -111,12 +153,14 @@ ${modules_ls}
     border-radius: ${x1rb_radius}px ${x2rb_radius}px ${x3rb_radius}px ${x4rb_radius}px;
     margin-${x4}: ${e_margin}px;
     padding-${x4}: ${e_paddin}px;
+    margin-right: 4px;
 }
 
 #custom-l_end {
     border-radius: ${x1lb_radius}px ${x2lb_radius}px ${x3lb_radius}px ${x4lb_radius}px;
     margin-${x3}: ${e_margin}px;
     padding-${x3}: ${e_paddin}px;
+    margin-left: 4px;
 }
 
 #custom-sr_end {
