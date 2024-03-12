@@ -5,7 +5,7 @@ if ! pgrep -u "$USER" ssh-agent > /dev/null; then
 fi
 
 if [[ ! -f "$SSH_AUTH_SOCK" ]]; then
-    source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
+    source "$XDG_RUNTIME_DIR/ssh-agent.env" > /dev/null
 fi
 
 eval $(keychain --eval --quiet $HOME/.ssh/arch_uplabs)
