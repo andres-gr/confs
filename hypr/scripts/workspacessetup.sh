@@ -7,11 +7,11 @@ hyprctl --batch "dispatch workspace 7;dispatch workspace 8;dispatch workspace 9;
 
 hyprctl dispatch workspace 6
 
-sleep 0.2
+sleep 0.1
 
 hyprctl dispatch workspace 1
 
-sleep 0.75
+sleep 1
 
 monitor1=$(wlr-randr | rg '^(HDMI-[^\s]+)' | awk '{print $1}')
 monitor2=$(wlr-randr | rg '^(DP-[^\s]+)' | awk '{print $1}')
