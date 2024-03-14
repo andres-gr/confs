@@ -1,6 +1,8 @@
     "custom/weather": {
         "exec": "~/.config/waybar/wittr.sh",
         "return-type": "json",
+        "on-click": "xdg-open https://wttr.in/monterrey",
+        "on-click-right": "xdg-open https://www.wunderground.com/weather/mx/monterrey",
         "format": "{}",
         "tooltip": true,
         "interval": 900
