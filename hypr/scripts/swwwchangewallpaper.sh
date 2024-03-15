@@ -2,6 +2,14 @@
 
 # swww img -t fade -o HDMI-A-1 --transition-duration=0.25 $HOME/.config/swww/Dracula/dracula\ pro.png
 
+transition="outer"
+
+while getopts "t:" opt; do
+  case $opt in
+    t) transition=$OPTARG ;;
+  esac
+done
+
 monitor1=$(wlr-randr | rg '^(HDMI-[^\s]+)' | awk '{print $1}')
 monitor2=$(wlr-randr | rg '^(DP-[^\s]+)' | awk '{print $1}')
 
@@ -28,4 +36,4 @@ else
   monitor=$monitor1
 fi
 
-swww img -t fade -o $monitor --transition-duration=0.25 ${walls[$wall - 1]}
+swww img -t $transition -o $monitor --transition-duration=0.2 ${walls[$wall - 1]}
