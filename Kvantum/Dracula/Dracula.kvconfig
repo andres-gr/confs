@@ -48,8 +48,8 @@ combo_focus_rect=true
 groupbox_top_label=true
 inline_spin_indicators=false
 joined_inactive_tabs=false
-layout_spacing=6
-layout_margin=9
+layout_spacing=4
+layout_margin=6
 scrollbar_in_view=true
 transient_scrollbar=true
 transient_groove=false
@@ -58,7 +58,7 @@ tooltip_delay=-1
 tree_branch_line=true
 dark_titlebar=true
 opaque=QMPlay2,kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam
-reduce_window_opacity=18
+reduce_window_opacity=16
 scrollable_menu=false
 submenu_delay=250
 no_inactiveness=false
@@ -71,6 +71,9 @@ dialog_button_layout=0
 intensity=1.00
 saturation=1.00
 shadowless_popup=false
+drag_from_buttons=false
+menu_blur_radius=0
+tooltip_blur_radius=0
 
 [GeneralColors]
 window.color=#1e1f29
@@ -115,6 +118,10 @@ no_selection_tint=false
 opaque_colors=false
 kinetic_scrolling=false
 scroll_jump_workaround=false
+blur_only_active_window=false
+centered_forms=false
+noninteger_translucency=false
+style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true
