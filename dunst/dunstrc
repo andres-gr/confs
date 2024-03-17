@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = (300, 450)
+    width = (400, 500)
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -451,15 +451,15 @@
     #default_icon = /path/to/icon
 
 [urgency_low]
-    background = "#29292E"
-    foreground = "#D5D3C6"
-    frame_color = "#362A3E"
+    background = "#0E0C0D"
+    foreground = "#EDF3EE"
+    frame_color = "#130B0C"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 4
 
 [urgency_normal]
-    background = "#4D3C59"
-    foreground = "#D5D3C6"
-    frame_color = "#605B74"
+    background = "#493D5A"
+    foreground = "#EDF3EE"
+    frame_color = "#6D6C7B"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 4
