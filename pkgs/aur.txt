@@ -1,32 +1,33 @@
-betterbird-bin
-bibata-cursor-theme
-bun-bin
-docker-desktop
-emote
-fnm
-grimblast-git
-hyprdots-ctl
-hypridle
-hyprlock
-hyprpicker-git
-nwg-displays
-oh-my-zsh-git
-pacseek
-pfetch
-pokemon-colorscripts-git
-python-pyamdgpuinfo
-rofi-lbonn-wayland-git
-sddm-sugar-candy-git
-slack-desktop
-spicetify-cli
-spotify
-swaylock-effects-git
-swww
-trizen
-visual-studio-code-bin
-wlogout
-wlr-randr
-yarn-berry
-yay
-yaycache
-zoom
+betterbird-bin 115.8.1-1
+bibata-cursor-theme 2.0.6-1
+bibata-rainbow-cursor-theme 1.1.2-2
+bun-bin 1.0.33-1
+docker-desktop 4.28.0-139021
+emote 4.0.1-2
+fnm 1.35.1-1
+grimblast-git r96.2d4ece4-1
+hyprdots-ctl-git v0.4.1.r2.gf8d5b10-1
+hyprpicker-git 0.2.0.r2.2ef7034-1
+nwg-displays 0.3.14-1
+nwg-dock-hyprland-bin 0.1.7-3
+oh-my-zsh-git r7151.fd01fd66c-1
+pacseek 1.8.2-3
+pfetch 0.6.0-3
+pokemon-colorscripts-git r112.0483c85-1
+pyprland 2.0.9-1
+python-pyamdgpuinfo 2.1.6-1
+rofi-lbonn-wayland-git 1.7.5.wayland2.r227.gbe7c088e-1
+sddm-sugar-candy-git r53.2b72ef6-1
+slack-desktop 4.36.140-1
+spicetify-cli 2.34.1-1
+spotify 1:1.2.31.1205-2
+swaylock-effects-git r470.496059a-1
+swww 0.8.2-2
+trizen 1:1.68-1
+visual-studio-code-bin 1.87.2-1
+wlogout 1.2.1-1
+wlr-randr 0.4.0-1
+yarn-berry 4.0.2-1
+yay 12.3.4-1
+yaycache 0.3.0-1
+zoom 5.17.11-1
