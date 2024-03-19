@@ -8,7 +8,7 @@
         "on-click-middle": "playerctl previous --player spotify",
         "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh -p spotify i",
         "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh -p spotify d",
-        "max-length": 30,
+        "max-length": 35,
         "escape": true,
         "tooltip": true
     },

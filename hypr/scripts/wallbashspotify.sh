@@ -2,8 +2,8 @@
 
 # set variables
 
-ScrDir=`dirname "$(realpath "$0")"`
-source $ScrDir/globalcontrol.sh
+# ScrDir=`dirname "$(realpath "$0")"`
+source ~/.config/hypr/scripts/globalcontrol.sh
 scol="${XDG_CONFIG_HOME:-$HOME/.config}/spicetify/Themes/Dracula/color.ini"
 dcol="${XDG_CONFIG_HOME:-$HOME/.config}/spicetify/Themes/Dracula/Wall-Dcol.ini"
 # scol="${XDG_CONFIG_HOME:-$HOME/.config}/spicetify/Themes/Sleek/color.ini"
