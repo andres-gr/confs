@@ -106,6 +106,16 @@ fi
 #   ln -sf $layout $config_path/wlogout/
 # done
 
+# # copy GTK theme to home
+# cp -rf $PWD/.themes/Dracula $HOME/.themes/
+
+# # backup rofi style_3 and replace with symlink
+# if [ -f $config_path/rofi/styles/style_3.rasi ]; then
+#   mv -f $config_path/rofi/styles/style_3.rasi $config_path/rofi/styles/style_3.rasi.bak
+# fi
+#
+# ln -sf $PWD/rofi/styles/style_3.rasi $config_path/rofi/styles/
+
 printf '\n'
 echo 'done'
 printf '\n'
