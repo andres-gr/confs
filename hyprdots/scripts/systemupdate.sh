@@ -10,8 +10,7 @@ fi
 source ~/.config/hypr/scripts/globalcontrol.sh
 
 # Check for updates
-get_aurhlpr
-aur=`${aurhlpr} -Qua | wc -l`
+aur=`yay -Qua | wc -l`
 ofc=`checkupdates | wc -l`
 
 # Check for flatpak updates
@@ -34,12 +33,9 @@ else
     echo "{\"text\":\"$upd\", \"tooltip\":\"󱓽 Official $ofc\n󱓾 AUR $aur$fpk_disp\"}"
 fi
 
-# Determine the terminal emulator to use
-term=$(cat $HOME/.config/hypr/keybindings.conf | grep ^'$term' | cut -d '=' -f2)
-
 # Trigger upgrade
 if [ "$1" == "up" ] ; then
     # kitty --title systemupdate sh -c "${aurhlpr} -Syu $fpk_exup"
-    $term -e sh -c "${aurhlpr} -Syu $fpk_exup"
+    wezterm -e sh -c "yay -Syu $fpk_exup"
 fi
 
