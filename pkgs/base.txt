@@ -1,124 +1,123 @@
-argparse 3.0-2
-ark 24.02.0-1
-autorandr 1.15-1
-base 3-2
-base-devel 1-1
-bat 0.24.0-1
-blueman 2.3.5-3
-bluez 5.73-4
-bluez-utils 5.73-4
-breeze-icons 6.0.0-1
-brightnessctl 0.5.1-2
-broadcom-wl-dkms 6.30.223.271-36
-btop 1.3.2-1
-chromium 123.0.6312.46-1
-cliphist 1:0.5.0-1
-cmake 3.28.3-1
-docker 1:25.0.4-1
-dolphin 24.02.0-3
-dunst 1.10.0-1
-efibootmgr 18-3
-eza 0.18.7-1
-fd 9.0.0-2
-ffmpegthumbs 24.02.0-1
-figlet 2.2.5-5
-firefox 124.0-1
-firefox-developer-edition 125.0b1-1
-font-manager 0.8.8-1
-fontforge 20230101-3
-fuse2 2.9.9-4
-git 2.44.0-1
-grim 1.4.1-1
-gst-plugin-pipewire 1:1.0.4-1
-gtk4 1:4.12.5-1
-gwenview 24.02.0-3
-hypridle 0.1.1-2
-hyprland 0.37.1-1
-hyprlock 0.2.0-2
-hyprpaper 0.6.0-4
-imagemagick 7.1.1.29-2
-inkscape 1.3.2-4
-intel-ucode 20240312-1
-jq 1.7.1-1
-kde-cli-tools 6.0.2-3
-keychain 2.8.5-2
-kitty 0.33.0-1
-kvantum 1.1.0-1
-lazygit 0.40.2-1
-libadwaita 1:1.4.4-1
-libpulse 17.0-3
-libva-mesa-driver 1:24.0.3-1
-linux 6.8.1.arch1-1
-linux-firmware 20240312.3b128b60-1
-linux-headers 6.8.1.arch1-1
-linux-lts 6.6.22-1
-lolcat 100.0.1-1
-man-db 2.12.0-1
-man-pages 6.06-2
-mesa-vdpau 1:24.0.3-1
-mousepad 0.6.2-1
-mpv 1:0.37.0-2
-nano 7.2-1
-neofetch 7.1.0-2
-network-manager-applet 1.36.0-1
-networkmanager 1.46.0-2
-ninja 1.11.1-3
-nm-connection-editor 1.36.0-1
-noto-fonts 1:24.3.1-1
-nwg-look 0.2.7-1
-onboard 1.4.1-8
-otf-font-awesome 6.5.1-1
-pamixer 1.6-3
-papirus-icon-theme 20240201-1
-parallel 20240122-1
-pavucontrol 1:5.0+r64+geba9ca6-1
-pipewire 1:1.0.4-1
-pipewire-alsa 1:1.0.4-1
-pipewire-jack 1:1.0.4-1
-pipewire-pulse 1:1.0.4-1
-pnpm 8.15.2-2
-polkit-kde-agent 6.0.2-3
-python-click 8.1.7-1
-python-pip 24.0-1
-python-psutil 5.9.8-1
-python-pywal 3.3.0-8
-python-rich 13.7.1-1
-qalculate-gtk 5.0.0-2
-qbittorrent 4.6.3-1
-qt5-imageformats 5.15.13+kde+r7-1
-qt5-quickcontrols 5.15.13-1
-qt5-wayland 5.15.13+kde+r60-1
-qt5ct 1.8-1
-qt6-wayland 6.6.2-1
-qt6ct 0.9-5
-ripgrep 14.1.0-1
-rsync 3.2.7-6
-sddm 0.21.0-4
-slurp 1.5.0-1
-sof-firmware 2023.12.1-1
-starship 1.17.1-2
-swappy 1.5.1-1
-tmux 3.4-4
-ttf-fira-code 6.2-2
-ttf-fira-sans 1:4.301-2
-ttf-firacode-nerd 3.1.1-1
-tumbler 4.18.2-1
-unzip 6.0-20
-usbutils 017-1
-vim 9.1.0151-2
-vlc 3.0.20-7
-vulkan-radeon 1:24.0.3-1
-waybar 0.10.0-1
-wev 1.0.0-13
-wezterm 20240203.110809.5046fc22-1
-wireplumber 0.4.17-1
-wl-clipboard 1:2.2.1-1
-xarchiver 0.5.4.23-1
-xdg-desktop-portal-hyprland 1.3.1-6
-xdg-user-dirs 0.18-1
-zip 3.0-11
-zoxide 0.9.4-2
-zram-generator 1.1.2-1
-zsh 5.9-5
-zsh-completions 0.35.0-1
-zsh-theme-powerlevel10k 1.20.0-1
+argparse
+ark
+autorandr
+base
+base-devel
+bat
+blueman
+bluez
+bluez-utils
+breeze-icons
+brightnessctl
+broadcom-wl-dkms
+btop
+chromium
+cliphist
+docker
+dolphin
+dunst
+efibootmgr
+eza
+fd
+ffmpegthumbs
+figlet
+firefox
+firefox-developer-edition
+font-manager
+fontforge
+fuse2
+git
+gst-plugin-pipewire
+gtk4
+gwenview
+hypridle
+hyprland
+hyprlock
+hyprpaper
+imagemagick
+inkscape
+intel-ucode
+jq
+kde-cli-tools
+keychain
+kitty
+kmail
+kservice5
+kvantum
+lazygit
+libadwaita
+libpulse
+libva-mesa-driver
+linux
+linux-firmware
+linux-headers
+linux-lts
+lolcat
+man-db
+man-pages
+mesa-vdpau
+mousepad
+mpv
+nano
+neofetch
+network-manager-applet
+networkmanager
+ninja
+noto-fonts
+nwg-look
+onboard
+otf-font-awesome
+pacman-contrib
+pamixer
+papirus-icon-theme
+parallel
+pavucontrol
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+pnpm
+polkit-kde-agent
+python-click
+python-pip
+python-psutil
+python-pywal
+python-rich
+qalculate-gtk
+qbittorrent
+qt5-graphicaleffects
+qt5-imageformats
+qt5-quickcontrols
+qt5-quickcontrols2
+qt5-wayland
+qt5ct
+qt6-wayland
+qt6ct
+ripgrep
+rsync
+sddm
+slurp
+sof-firmware
+starship
+swappy
+tmux
+ttf-fira-code
+ttf-fira-sans
+ttf-firacode-nerd
+ttf-nerd-fonts-symbols-mono
+tumbler
+unzip
+usbutils
+vim
+vulkan-radeon
+waybar
+wev
+wireplumber
+xarchiver
+xdg-desktop-portal-hyprland
+xdg-user-dirs
+zip
+zoxide
+zram-generator
+zsh
+zsh-completions
