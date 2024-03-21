@@ -116,6 +116,13 @@ fi
 #
 # ln -sf $PWD/rofi/styles/style_3.rasi $config_path/rofi/styles/
 
+# # backup sddm theme and fix styles
+# if [ -d /usr/share/sddm/themes/Candy ]; then
+#   sudo cp -rf /usr/share/sddm/themes/Candy /usr/share/sddm/themes/Candy_bak
+#
+#   cp -rf $PWD/sddm/themes/Candy/* /usr/share/sddm/themes/Candy/
+# fi
+
 printf '\n'
 echo 'done'
 printf '\n'
