@@ -123,6 +123,13 @@ fi
 #   cp -rf $PWD/sddm/themes/Candy/* /usr/share/sddm/themes/Candy/
 # fi
 
+# # backup foot conf and replace with symlink
+# if [ -f $config_path/foot/foot.ini ]; then
+#   mv -f $config_path/foot/foot.ini $config_path/foot/foot.ini.bak
+# fi
+#
+# ln -sf $PWD/foot/foot.ini $config_path/foot/
+
 printf '\n'
 echo 'done'
 printf '\n'
