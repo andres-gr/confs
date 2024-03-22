@@ -1,10 +1,13 @@
 bibata-rainbow-cursor-theme
 bun-bin
+cavasik
+emote
 fnm
 foot-git
 grimblast-git
 hyprdots-ctl-git
 hyprpicker
+lssecret-git
 nwg-displays
 nwg-dock-hyprland-bin
 oh-my-zsh-git

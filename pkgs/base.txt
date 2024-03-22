@@ -27,6 +27,7 @@ font-manager
 fontforge
 fuse2
 git
+gnome-keyring
 gst-plugin-pipewire
 gtk4
 gwenview
@@ -64,6 +65,7 @@ network-manager-applet
 networkmanager
 ninja
 noto-fonts
+noto-fonts-emoji
 nwg-look
 onboard
 otf-font-awesome
@@ -96,6 +98,7 @@ qt6ct
 ripgrep
 rsync
 sddm
+seahorse
 slurp
 sof-firmware
 starship
