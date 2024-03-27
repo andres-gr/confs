@@ -109,6 +109,10 @@ element {
         orientation:             vertical;
     }
 }
+element selected {
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
+}
 element selected.normal {
     background-color:            @select-bg;
     text-color:                  @select-fg;
