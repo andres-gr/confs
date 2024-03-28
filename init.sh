@@ -14,7 +14,8 @@ if [ -d $config_path/dunst ]; then
     mv -f $config_path/dunst/dunst.conf $config_path/dunst/dunst.conf.bak
   fi
 
-  ln -sf $PWD/dunst/dunst.conf $config_path/dunst/dunst.conf
+  rm -rf $config_path/dunst/dunst.conf
+  cp -rf $PWD/dunst/dunst.conf $config_path/dunst/dunst.conf
 fi
 
 # [ "$UID" -eq 0 ] || exec sudo "$0" "$@"
@@ -24,6 +25,7 @@ if [ -f /etc/X11/xorg.conf.d/09-monitors.conf ]; then
   sudo mv -f /etc/X11/xorg.conf.d/09-monitors.conf /etc/X11/xorg.conf.d/09-monitors.conf.bak
 fi
 
+sudo rm -rf /etc/X11/xorg.conf.d/09-monitors.conf
 sudo cp -f $PWD/etc/X11/xorg.conf.d/09-monitors.conf /etc/X11/xorg.conf.d/09-monitors.conf
 
 # backup hyprdots scripts and replace with symlink
@@ -34,7 +36,8 @@ for conf in ${hyprd_scripts[@]}; do
     mv -f $config_path/hyprdots/scripts/$(basename $conf) $config_path/hyprdots/scripts/$(basename $conf).bak
   fi
 
-  ln -sf $conf $config_path/hyprdots/scripts/
+  rm -rf $config_path/hyprdots/scripts/$(basename $conf)
+  cp -rf $conf $config_path/hyprdots/scripts/
 done
 
 # backup hyprdots wallbash and replace with symlink
@@ -42,14 +45,16 @@ if [ ! -f $config_path/hyprdots/wallbash/spotify.dcol.bak ]; then
   mv -f $config_path/hyprdots/wallbash/spotify.dcol $config_path/hyprdots/wallbash/spotify.dcol.bak
 fi
 
-ln -sf $PWD/hyprdots/wallbash/spotify.dcol $config_path/hyprdots/wallbash/
+rm -rf $config_path/hyprdots/wallbash/spotify.dcol
+cp -rf $PWD/hyprdots/wallbash/spotify.dcol $config_path/hyprdots/wallbash/
 
 # backup hyprdots theme and replace with symlink
 if [ ! -f $config_path/hyprdots/theme.ctl.bak ]; then
   mv -f $config_path/hyprdots/theme.ctl $config_path/hyprdots/theme.ctl.bak
 fi
 
-ln -sf $PWD/hyprdots/theme.ctl $config_path/hyprdots/
+rm -rf $config_path/hyprdots/theme.ctl
+cp -rf $PWD/hyprdots/theme.ctl $config_path/hyprdots/
 
 # check if user confs exists in hypr and created if not
 if [ ! -d $config_path/hypr/user/ ]; then
@@ -60,7 +65,8 @@ fi
 hypr_user_confs=($PWD/hypr/user/*)
 
 for conf in ${hypr_user_confs[@]}; do
-  ln -sf $conf $config_path/hypr/user/
+  rm -rf $config_path/hypr/user/$(basename $conf)
+  cp -rf $conf $config_path/hypr/user/
 done
 
 # find modified confs and backup originals
@@ -71,7 +77,8 @@ for conf in ${hypr_confs[@]}; do
     mv -f $config_path/hypr/$(basename $conf) $config_path/hypr/$(basename $conf).bak
   fi
 
-  ln -sf $conf $config_path/hypr/
+  rm -rf $config_path/hypr/$(basename $conf)
+  cp -rf $conf $config_path/hypr/
 done
 
 # backup waybar modules and replace with symlink
@@ -82,18 +89,21 @@ for mod in ${waybar_mods[@]}; do
     mv -f $config_path/waybar/modules/$(basename $mod) $config_path/waybar/modules/$(basename $mod).bak
   fi
 
-  ln -sf $mod $config_path/waybar/modules/
+  rm -rf $config_path/waybar/modules/$(basename $mod)
+  cp -rf $mod $config_path/waybar/modules/
 done
 
 # symlink weather script
-ln -sf $PWD/waybar/wittr.sh $config_path/waybar/
+rm -rf $config_path/waybar/wittr.sh
+cp -rf $PWD/waybar/wittr.sh $config_path/waybar/
 
 # backup waybar ctl and replace with symlink
 if [ ! -f $config_path/waybar/config.ctl.bak ]; then
   mv -f $config_path/waybar/config.ctl $config_path/waybar/config.ctl.bak
 fi
 
-ln -sf $PWD/waybar/config.ctl $config_path/waybar/
+rm -rf $config_path/waybar/config.ctl
+cp -rf $PWD/waybar/config.ctl $config_path/waybar/
 
 # backup wlogout layouts and replace with symlink
 wlogout_layouts=($PWD/wlogout/*)
@@ -103,10 +113,12 @@ for layout in ${wlogout_layouts[@]}; do
     mv -f $config_path/wlogout/$(basename $layout) $config_path/wlogout/$(basename $layout).bak
   fi
 
-  ln -sf $layout $config_path/wlogout/
+  rm -rf $config_path/wlogout/$(basename $layout)
+  cp -rf $layout $config_path/wlogout/
 done
 
 # copy GTK theme to home
+rm -rf $HOME/.themes/Dracula
 cp -rf $PWD/.themes/Dracula $HOME/.themes/
 
 # backup rofi style_3 and replace with symlink
@@ -114,7 +126,8 @@ if [ ! -f $config_path/rofi/styles/style_3.rasi.bak ]; then
   mv -f $config_path/rofi/styles/style_3.rasi $config_path/rofi/styles/style_3.rasi.bak
 fi
 
-ln -sf $PWD/rofi/styles/style_3.rasi $config_path/rofi/styles/
+rm -rf $config_path/rofi/styles/style_3.rasi
+cp -rf $PWD/rofi/styles/style_3.rasi $config_path/rofi/styles/
 
 # backup sddm theme and fix styles
 if [ ! -d /usr/share/sddm/themes/Candy_bak ]; then

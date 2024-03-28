@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "pidof hyprlock || hyprlock",
     "text" : "Lock (L)",
     "keybind" : "l"
 }
@@ -14,7 +14,7 @@
 
 {
     "label" : "suspend",
-    "action" : "swaylock -f && systemctl suspend",
+    "action" : "pidof hyprlock || hyprlock && systemctl suspend",
     "text" : "Suspend (U)",
     "keybind" : "u"
 }
