@@ -1,6 +1,8 @@
+betterbird-bin
 bibata-rainbow-cursor-theme
 bun-bin
 cavasik
+docker-desktop
 emote
 fnm
 foot-git
@@ -11,14 +13,12 @@ lssecret-git
 nwg-displays
 nwg-dock-hyprland-bin
 oh-my-zsh-git
-paru
-paru-debug
 pokemon-colorscripts-git
 python-pyamdgpuinfo
 rofi-lbonn-wayland-git
 slack-desktop
+spicetify-cli
 spotify
-swaylock-effects-git
 swww
 visual-studio-code-bin
 wezterm-git

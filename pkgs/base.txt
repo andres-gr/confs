@@ -13,6 +13,7 @@ broadcom-wl-dkms
 btop
 chromium
 cliphist
+cmake
 docker
 dolphin
 dunst
@@ -28,6 +29,7 @@ fontforge
 fuse2
 git
 gnome-keyring
+gnome-terminal
 gst-plugin-pipewire
 gtk4
 gwenview
@@ -64,7 +66,6 @@ neofetch
 network-manager-applet
 networkmanager
 ninja
-noto-fonts
 noto-fonts-emoji
 nwg-look
 onboard
