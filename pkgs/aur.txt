@@ -18,12 +18,14 @@ python-pyamdgpuinfo
 rofi-lbonn-wayland-git
 slack-desktop
 spicetify-cli
+spicetify-marketplace-bin
 spotify
 swww
 visual-studio-code-bin
 wezterm-git
 wlogout
 wlr-randr
+xwaylandvideobridge-git
 yarn-berry
 yay
 yay-debug
