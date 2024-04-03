@@ -8,6 +8,12 @@ if [ ! -d $config_path ]; then
   mkdir $config_path
 fi
 
+if [ ! -d $HOME/.local/share/applications ]; then
+  mkdir -p $HOME/.local/share/applications
+fi
+
+ln -sf $PWD/applications/* $HOME/.local/share/applications
+
 # backup dunst conf and replace with symlink
 if [ -d $config_path/dunst ]; then
   if [ ! -f $config_path/dunst/dunst.conf.bak ]; then

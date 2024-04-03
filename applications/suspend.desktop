@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Suspend
+Icon=terminal
+Exec=/usr/bin/env bash -c '$(pidof hyprlock || hyprlock) & sleep 1; systemctl suspend'
+Terminal=false
