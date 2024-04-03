@@ -14,7 +14,7 @@
 
 {
     "label" : "suspend",
-    "action" : "pidof hyprlock || hyprlock && systemctl suspend",
+    "action" : "$(pidof hyprlock || hyprlock) & sleep 1; systemctl suspend",
     "text" : "Suspend (U)",
     "keybind" : "u"
 }
@@ -24,13 +24,6 @@
     "action" : "systemctl poweroff",
     "text" : "Shutdown (S)",
     "keybind" : "s"
-}
-
-{
-    "label" : "hibernate",
-    "action" : "systemctl hibernate",
-    "text" : "Hibernate (H)",
-    "keybind" : "h"
 }
 
 {
