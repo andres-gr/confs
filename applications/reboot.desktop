@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Reboot
+Name=Restart
 Icon=terminal
 Exec=systemctl reboot
 Terminal=false
