@@ -2,5 +2,5 @@
 Type=Application
 Name=Suspend
 Icon=terminal
-Exec=/usr/bin/env bash -c '$(pidof hyprlock || hyprlock) & sleep 1; systemctl suspend'
+Exec=/usr/bin/env bash -c '$(loginctl lock-session); sleep 1; systemctl suspend'
 Terminal=false
